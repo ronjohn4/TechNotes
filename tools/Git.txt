@@ -1,0 +1,43 @@
+git
+
+Install
+https://git-scm.com/downloads
+
+in Windows use the git bash shell
+Can use from windows command line but try not to
+
+git init
+initialize local git repo
+
+git config --global user.name 'Ron Johnson'
+git config --global user.email 'ronjohn4@gmail'
+
+git add <file>
+add file(x) to index
+
+git status
+check status of working tree
+
+git commit
+commit changes into index
+
+git push
+push to remote repo
+
+git pull
+pull latest from remote repo
+
+git clone
+clone repo into a new directory
+
+git --version
+check git version
+
+git branch <branchname>
+create new branch
+
+git checkout <branchname>
+switch to branchname
+
+git merge <branchname>
+merge branchname back into master
